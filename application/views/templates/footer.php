@@ -32,7 +32,7 @@
             
         </div>     
        <div class="col-sm-12 footer footer-nav">
-           <p class="pull-left pull-footer-nav">&copy; 2014-2016 <?php echo $page_title; ?> | <?php echo ucfirst($site_lang['generated_in']); ?> <strong>{elapsed_time}</strong> <?php echo $site_lang['second']; ?>!</p>
+           <p class="pull-left pull-footer-nav">&copy; 2018 <?php echo $page_title; ?> | <?php echo ucfirst($site_lang['generated_in']); ?> <strong>{elapsed_time}</strong> <?php echo $site_lang['second']; ?>!</p>
        </div> 
         
 
