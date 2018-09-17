@@ -1,0 +1,69 @@
+.img-div, a > p {
+	display: none;
+}
+
+#main-img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+p > img {
+	width: 95%;
+	margin: 20px;
+}
+
+.captionText {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: @font-size-base;
+	font-style: italic;
+}
+
+//styles to properly format giant bomb reviews
+[data-align="right"] {
+	float: right;
+	max-width: 35%;
+	margin: 5px 0px 0px 40px;
+}
+
+[data-align="center"] {
+	max-width: 100%;
+	margin: 40px 0;
+}
+[data-align="left"] {
+	float: left;
+	max-width: 35%;
+	margin: 5px 40px 0px 0px;
+}
+
+[data-align="center"],
+[data-align="right"],
+[data-align="left"] {
+	figcaption {
+		text-align: center;
+		margin: 10px 0;
+		font-size: @font-size-base;
+		font-style: italic;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+#new-review-modal {
+	#star-rating {
+		padding: 10px 0;
+
+		label {
+			padding: 1px 5px 0 0;
+		} 
+		
+	}
+}
+
+#disqus_thread {
+	margin-top: 40px;
+}

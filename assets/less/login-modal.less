@@ -1,0 +1,79 @@
+#login-modal, #new-pass-modal {
+	a i {
+		color: #FFFFFF;
+		padding-right: 5px;
+	}
+	.social-login-btns a, .social-login-btns a:active, .social-login-btns a:focus, .social-login-btns a:hover {
+    	color: #FFF;
+    	margin-bottom: 10px;
+	}
+	.social-login-btns {
+	    margin-top: 25px ;
+
+	    .twitter {
+	    	padding-right: 14px;
+	    }
+
+	    .google {
+	    	padding-right: 15px;
+	    }
+	}
+
+	.modal-footer span {
+		display: block;
+		text-align: center;
+		padding: 15px 0;
+		color: #72757E;
+	}
+
+	#forgot-pass {
+		float: right;
+		margin: 10px 0;
+		text-decoration: underline;
+	}
+
+	.radio {
+		display: inline-block;
+		padding: 0;
+
+		input {
+			float: left;
+			margin: 4px 7px 0 0;
+		}
+	}
+}
+
+.modal-close {
+	position: absolute;
+	top: -25px;
+	right: -25px;
+	color: @brand-primary;
+	border: 0 transparent;
+	outline: 0;
+	font-size: 15px;
+	cursor: pointer;
+	background: transparent;
+	z-index: 1000;
+}
+
+#login-form > .form-group:nth-child(3) {
+	margin-top: 16px;
+}
+
+//login/register modal
+.main-container {
+    padding: 45px 20px;
+    background-color: #f3f3f3;
+}
+
+#login-modal {
+	.modal-content {
+		border-radius: 0;
+		border-top: 6px solid @brand-primary;
+	}
+}
+
+.captcha-image {
+	display: block;
+	padding-bottom: 10px;
+}

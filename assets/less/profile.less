@@ -1,0 +1,118 @@
+#users-show {
+	padding-top: 79px;
+
+	#filter-row {
+		margin: 0 auto;
+		padding: 0;
+		border: none;
+		box-shadow: inset 0 0 3px #d0d0d0;
+	}
+
+	> .jumbotron {
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
+		background: #1E1E1E;
+
+		> .container {
+			padding: 70px 70px 0 70px;
+			border-right: 1px solid darken(#d0d0d0, 30%);
+			border-left: 1px solid darken(#d0d0d0, 30%);
+			color: darken(#fff, 10%);
+			h1 { 
+				margin: 20px 0 0 0;
+				text-align: center;
+				color: #fff;
+			};
+
+			.last-seen {
+				float: right;
+				padding-top: 70px;
+				padding-bottom: 10px;
+			}
+		}
+	}
+
+	.nav-tabs > li:hover {
+		cursor: pointer;
+	}
+
+	#games-cont {
+		padding: 30px;
+		background: @gray;
+		
+		figure {
+			margin-bottom: 20px;
+			.box-shadow(6px 6px 9px -4px #cfd0d0);
+
+			.delete-btn {
+				position: absolute;
+				top: 0;
+				right: 15px;
+				padding: 6px 8px;
+			}
+
+			.img-responsive {
+				width: 100%;
+			}
+
+			@media (min-width: @screen-sm) {
+				.img-responsive {
+					height: 220px;
+				}
+			}
+
+			@media (min-width: @screen-md) {
+				.img-responsive {
+					height: 270px;
+				}
+			}
+
+			@media (min-width: @screen-lg) {
+				.img-responsive {
+					height: 212px;
+				}
+			}
+
+		}
+
+		figcaption {
+			padding: 7px 15px;
+			margin-bottom: 15px;
+			border: 1px solid @gray;
+			background: @primary-bg;
+			font-size: 13px;
+			text-align: center;
+		}
+	}
+}
+
+#users-edit {
+	background: @gray;
+
+	h3 {
+		margin: 0 0 15px 0;
+	}
+
+	#main-cont {
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+		> form {
+			margin-bottom: 30px;
+			background: @primary-bg;
+			padding: 15px;
+		}
+	}
+
+	#upload-avatar {
+		> .img-responsive {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.avatar {
+	width: 80px;
+	height: 80px;
+}

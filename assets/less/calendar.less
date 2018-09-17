@@ -1,0 +1,82 @@
+#calendar-page {
+	background: @gray;
+	padding-top: 79px;
+
+	> .navbar {
+		margin-bottom: 0;
+	}
+}
+
+#calendar-items {
+	figure {
+		box-shadow: 6px 6px 9px -4px #cfd0d0;
+	}
+
+	.img-responsive {
+		width: 100%;
+	}
+
+	@media (min-width: @screen-sm) {
+		.img-responsive {
+			height: 220px;
+		}
+	}
+
+	@media (min-width: @screen-md) {
+		.img-responsive {
+			height: 270px;
+		}
+	}
+
+	@media (min-width: @screen-lg) {
+		.img-responsive {
+			height: 212px;
+		}
+	}
+
+	figcaption {
+		padding: 10px;
+		margin-bottom: 15px;
+		border: 1px solid @gray;
+		text-align: center;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+#calendar-nav {
+	margin-top: 30px;
+	background: @primary-bg;
+	.box-shadow(1px 1px 2px 0 #d0d0d0);
+	margin-bottom: 30px;
+	text-align: center;
+
+	.btn {
+		padding: 10px 30px;
+	}
+
+	> h3 {
+		display: inline-block;
+		margin-top: 9px;
+		vertical-align: middle;
+		margin-bottom: 0;
+		color: @navbar-inverse-link-color;
+		font-size: 18px;
+	}
+
+	> #prev-month {
+		margin-right: 20px;
+		.fa { margin-right: 5px; }
+
+		&:hover { cursor: pointer; }
+	}
+
+	> #next-month {
+		margin-left: 20px;
+		.fa { margin-left: 5px; };
+
+		&:hover { cursor: pointer; };
+	}
+}

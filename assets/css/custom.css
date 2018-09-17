@@ -1,0 +1,2804 @@
+#DIV_1 {
+    height: 280px;
+    position: relative;
+    max-width: 1160px;
+    perspective-origin: 601px 141px;
+    transform-origin: 601px 141px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(221, 221, 221);
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    margin: 0px 0px 40px;
+}/*#DIV_1*/
+
+#DIV_2 {
+    float: left;
+    height: 280px;
+    width: 422px;
+    position: relative;
+    perspective-origin: 211.5px 140px;
+    transform-origin: 211.5px 140px;
+    border-right: 1px solid rgb(221, 221, 221);
+}/*#DIV_2*/
+
+#Timeline_Big_tetel {
+    float: left;
+    height: 280px;
+    width: 100%;
+    position: relative;
+    border-right: 1px solid rgb(221, 221, 221);
+}/*#DIV_2*/
+
+
+#DIV_3 {
+    height: 280px;
+    position: relative;
+    width: 422px;
+    perspective-origin: 211px 140px;
+    transform-origin: 211px 140px;
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}/*#DIV_3*/
+
+#DIV_3:before {
+    background-position: 50% 50%;
+    display: block;
+    height: 280px;
+    position: absolute;
+    width: 422px;
+    align-self: stretch;
+    perspective-origin: 211px 140px;
+    transform-origin: 211px 140px;
+    background: rgba(0, 0, 0, 0) url(data:image/gif;base64,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) no-repeat scroll 50% 50% / auto padding-box border-box;
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}/*#DIV_3:before*/
+
+#A_4 {
+    background-position: 50% 50%;
+    color: rgb(6, 84, 186);
+    display: block;
+    height: 280px;
+    position: absolute;
+    text-decoration: none;
+    width: 422px;
+    align-self: stretch;
+    perspective-origin: 211px 140px;
+    transform-origin: 211px 140px;
+    background: rgba(0, 0, 0, 0) url(http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/02cAAOSw~gRVzpdU/$_1.JPG?set_id=8800005007) no-repeat scroll 50% 50% / cover padding-box border-box;
+    border: 0px none rgb(6, 84, 186);
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    outline: rgb(6, 84, 186) none 0px;
+}/*#A_4*/
+
+#SPAN_5 {
+    color: rgb(6, 84, 186);
+    display: block;
+    height: 1px;
+    left: -10000px;
+    position: absolute;
+    width: 1px;
+    align-self: stretch;
+    perspective-origin: 0.5px 0.5px;
+    transform-origin: 0.5px 0.5px;
+    border: 0px none rgb(6, 84, 186);
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    outline: rgb(6, 84, 186) none 0px;
+    overflow: hidden;
+}/*#SPAN_5*/
+
+#DIV_6 {
+    float: left;
+    height: 280px;
+    position: relative;
+    width: 380px;
+    perspective-origin: 232.5px 140px;
+    transform-origin: 232.5px 140px;
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    margin: 0px 30px;
+}/*#DIV_6*/
+
+#H4_7 {
+    max-height: 125px;
+    perspective-origin: 232.5px 16.5px;
+    transform-origin: 232.5px 16.5px;
+        font-family: HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 33px;
+    margin: 27px 0px 2px;
+    overflow: hidden;
+}/*#H4_7*/
+
+#A_8 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 0px none rgb(0, 0, 0);
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_8*/
+
+#DIV_9 {
+    height: 90px;
+    perspective-origin: 232.5px 23px;
+    transform-origin: 232.5px 23px;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 18px;
+}/*#DIV_9*/
+
+#BR_10 {
+    font: normal normal 300 normal 18px/23px HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}/*#BR_10*/
+
+#DIV_11 {
+    height: 14px;
+    text-transform: uppercase;
+    perspective-origin: 232.5px 7px;
+    transform-origin: 232.5px 7px;
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    margin: 22px 0px 0px;
+}/*#DIV_11*/
+
+#DIV_12 {
+    bottom: 20px;
+    height: 36px;
+    position: absolute;
+    align-self: stretch;
+    perspective-origin: 232.5px 18px;
+    transform-origin: 232.5px 18px;
+  
+}/*#DIV_12*/
+
+#A_13 {
+    box-shadow: rgba(0, 0, 0, 0.0588235) 0px 2px 0px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.168627) 0px 1px 0px;
+    width: 98px;
+    perspective-origin: 69px 18px;
+    transform-origin: 69px 18px;
+    background: rgb(0, 80, 157) linear-gradient(to top, rgb(0, 80, 157), rgb(0, 122, 189)) no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 2px 2px 2px 2px;
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: normal;
+    margin: 0px 20px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px 20px;
+}/*#A_13*/
+
+#A_14 {
+    box-shadow: rgba(0, 0, 0, 0.0588235) 0px 2px 0px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.168627) 0px 1px 0px;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgb(0, 80, 157) linear-gradient(to top, rgb(0, 80, 157), rgb(0, 122, 189)) no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold normal 14px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    margin: 0px 20px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px 20px;
+}/*#A_14*/
+
+#DIV_15 {
+    float: left;
+    height: 226px;
+    position: relative;
+    perspective-origin: 0.5px 113px;
+    transform-origin: 0.5px 113px;
+    border-left: 1px solid rgb(221, 221, 221);
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    margin: 32px 0px;
+}/*#DIV_15*/
+
+#DIV_16 {
+    float: right;
+    height: 280px;
+    position: relative;
+    text-align: center;
+    width: 296px;
+    margin:auto;
+    display: inline-block;
+}/*#DIV_16*/
+
+#DIV_17 {
+    height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    perspective-origin: 125px 22.5px;
+    transform-origin: 125px 22.5px;
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: normal;
+    margin: 30px 0px 0px;
+}/*#DIV_17*/
+
+#DIV_18 {
+    height: 69px;
+    text-align: center;
+    perspective-origin: 125px 34.5px;
+    transform-origin: 125px 34.5px;
+        font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: normal;
+    margin: 0px 0px 3px;
+}/*#DIV_18*/
+
+#DIV_19 {
+    color: rgb(102, 102, 102);
+    height: 23px;
+    text-align: center;
+    perspective-origin: 125px 11.5px;
+    transform-origin: 125px 11.5px;
+    border: 0px none rgb(102, 102, 102);
+        font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: normal;
+    outline: rgb(102, 102, 102) none 0px;
+}/*#DIV_19*/
+
+#DIV_20 {
+    color: rgb(255, 0, 0);
+    height: 21px;
+    text-align: center;
+    perspective-origin: 125px 10.5px;
+    transform-origin: 125px 10.5px;
+    border: 0px none rgb(255, 0, 0);
+        font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: normal;
+    outline: rgb(255, 0, 0) none 0px;
+}/*#DIV_20*/
+
+#DIV_21 {
+    height: 290px;
+    width: 1200px;
+    perspective-origin: 600px 145px;
+    transform-origin: 600px 145px;
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}/*#DIV_21*/
+
+#DIV_21:after {
+    clear: both;
+    display: table;
+    visibility: hidden;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    font: normal normal 300 normal 16px/0px HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}/*#DIV_21:after*/
+
+#DIV_21:before {
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    font: normal normal 300 normal 16px/normal HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}/*#DIV_21:before*/
+
+
+
+#TetelDIV_1 {
+    clear: both;
+    color: rgb(51, 51, 51);
+    float: left;
+    position: relative;
+    width: 1124px;
+    perspective-origin: 728.53125px 344px;
+    transform-origin: 728.53125px 344px;
+    border: 0px none rgb(51, 51, 51);
+    height:600px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TetelDIV_1*/
+
+#TetelSTYLE_2, #TetelNOSCRIPT_4, #TetelSPAN_189, #TetelSPAN_258, #TetelSPAN_260, #TetelSCRIPT_262, #TetelSPAN_306, #TetelSPAN_312 {
+    color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TetelSTYLE_2, #TetelNOSCRIPT_4, #TetelSPAN_189, #TetelSPAN_258, #TetelSPAN_260, #TetelSCRIPT_262, #TetelSPAN_306, #TetelSPAN_312*/
+
+#TetelDIV_3 {
+    color: rgb(51, 51, 51);
+    width: 1200px;
+    perspective-origin: 728.53125px 0px;
+    transform-origin: 728.53125px 0px;
+    border: 0px none rgb(51, 51, 51);
+    
+    margin: 0px 0px 15px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TetelDIV_3*/
+
+#TetelDIV_5 {
+    color: rgb(51, 51, 51);
+    height: 57px;
+    width: 1124px;
+    perspective-origin: 728.53125px 28.5px;
+    transform-origin: 728.53125px 28.5px;
+    border: 0px none rgb(51, 51, 51);
+    margin: 0px 0px 15px;
+    outline: rgb(51, 51, 51) none 0px;
+    box-sizing: content-box;
+}/*#TetelDIV_5*/
+
+#TetelDIV_6 {
+    color: rgb(51, 51, 51);
+    height: 43px;
+    position: relative;
+    width: 1124px;
+    z-index: 1;
+    perspective-origin: 728.53125px 28.5px;
+    transform-origin: 728.53125px 28.5px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 2px 2px 2px 2px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 6px;
+}/*#TetelDIV_6*/
+
+#TetelDIV_7 {
+    color: rgb(51, 51, 51);
+    height: 43px;
+    width: 1124px;
+    perspective-origin: 721.53125px 21.5px;
+    transform-origin: 721.53125px 21.5px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TetelDIV_7*/
+
+#TetelDIV_8 {
+    color: rgb(51, 51, 51);
+    height: 43px;
+    width: 1124px;
+    perspective-origin: 721.53125px 21.5px;
+    transform-origin: 721.53125px 21.5px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+    overflow: hidden;
+}/*#TetelDIV_8*/
+
+#TetelDIV_9 {
+    color: rgb(51, 51, 51);
+    float: left;
+    text-align: center;
+    width: 44px;
+    perspective-origin: 41.5px 19.5px;
+    transform-origin: 41.5px 19.5px;
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 1px solid rgb(222, 222, 222);
+    border-bottom: 0px none rgb(51, 51, 51);
+    border-left: 0px none rgb(51, 51, 51);
+    margin: 2px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 10px 20px 10px 10px;
+    display:block;
+}/*#TetelDIV_9*/
+
+#TetelDIV_10 {
+    height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 26px;
+    perspective-origin: 14px 7.5px;
+    transform-origin: 14px 7.5px;
+    padding: 0px 0px 1px 2px;
+}/*#TetelDIV_10*/
+
+#TetelDIV_11 {
+    height: 24px;
+    text-align: center;
+    width: 28px;
+    perspective-origin: 14px 12px;
+    transform-origin: 14px 12px;
+    font-family: 'Helvetica neue', Helvetica, Verdana, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+}/*#TetelDIV_11*/
+
+#TetelDIV_12 {
+    height: 22px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+    display:block;
+}/*#TetelDIV_12*/
+
+#TetelDIV_12 a{
+   font-size: 18px;
+}/*#TetelDIV_12*/
+
+#TetelDIV_12 i{
+   font-size: 14px;
+}/*#TetelDIV_12*/
+
+#TetelSPAN_13 {
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 24px;
+    max-width: 55%;
+    float:right;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+    perspective-origin: 316.828125px 12px;
+    transform-origin: 316.828125px 12px;
+    border: 0px none rgb(51, 51, 51);
+    font-family: 'Helvetica neue', Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    margin: 0px 5px 0px 5px;
+    outline: rgb(51, 51, 51) none 0px;
+    overflow: hidden;
+}/*#TetelSPAN_13*/
+
+#TetelA_14, #TetelA_16 {
+    color: rgb(6, 84, 186);
+    text-decoration: none;
+    border: 0px none rgb(6, 84, 186);
+    font-family: 'Helvetica neue', Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 16.8px;
+    outline: rgb(6, 84, 186) none 0px;
+}/*#TetelA_14, #TetelA_16*/
+
+#TetelSPAN_15 {
+    color: rgb(222, 222, 222);
+    border: 0px none rgb(222, 222, 222);
+    outline: rgb(222, 222, 222) none 0px;
+}/*#TetelSPAN_15*/
+
+#TetelDIV_17 {
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    height: 107px;
+    min-width: 107px;
+    position: fixed;
+    right: -91px;
+    text-align: center;
+    top: 187.59375px;
+    width: 107px;
+    z-index: 11;
+    perspective-origin: 59.5px 61.5px;
+    transform: matrix(6.12323399573677e-17, -1, 1, 6.12323399573677e-17, 0, 0);
+    transform-origin: 59.5px 61.5px;
+    background: rgb(0, 101, 176) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    border-radius: 6px 6px 0 0;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 9px 5px 7px 7px;
+}/*#TetelDIV_17*/
+
+
+
+#TetelDIV_37 {
+    color: rgb(51, 51, 51);
+    height: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    position: relative;
+    perspective-origin: 251px 251px;
+    transform-origin: 251px 251px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px 3px 3px 3px;
+}/*#TetelDIV_37*/
+
+
+
+
+#TetelDIV_45 {
+    border-collapse: collapse;
+    color: rgb(6, 84, 186);
+    cursor: pointer;
+    text-align: center;
+    perspective-origin: 250px 61.5px;
+    transform-origin: 250px 61.5px;
+    border: 0px none rgb(6, 84, 186);
+    outline: rgb(6, 84, 186) none 0px;
+}/*#TetelDIV_45*/
+
+
+
+#TetelIMG_47 {
+    border-collapse: collapse;
+    color: rgb(6, 84, 186);
+    cursor: pointer;
+    max-height: 375px;
+    max-width: 500px;
+    text-align: center;
+    perspective-origin: 250px 60px;
+    transform-origin: 250px 60px;
+    border: 0px none rgb(6, 84, 186);
+    outline: rgb(6, 84, 186) none 0px;
+}/*#TetelIMG_47*/
+
+
+#LicitDIV_1 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 512px;
+    width: 1165px;
+    perspective-origin: 600px 256px;
+    transform-origin: 600px 256px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(218, 218, 218);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 0px 0px 15px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_1*/
+
+
+#LicitDIV_2 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 510px;
+    width: 400px;
+    perspective-origin: 200px 255px;
+    transform-origin: 200px 255px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_2*/
+
+#LicitDIV_3 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 510px;
+    width: 400px;
+    perspective-origin: 200px 255px;
+    transform-origin: 200px 255px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_3*/
+
+#LicitDIV_4 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 510px;
+    width: 400px;
+    perspective-origin: 200px 255px;
+    transform-origin: 200px 255px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    overflow: hidden;
+}/*#LicitDIV_4*/
+
+#LicitDIV_5 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 400px;
+    width: 400px;
+    perspective-origin: 200px 200px;
+    transform-origin: 200px 200px;
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 0px none rgb(51, 51, 51);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-left: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_5*/
+
+#LicitDIV_6 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 399px;
+    min-height: 250px;
+    position: relative;
+    width: 400px;
+    perspective-origin: 200px 199.5px;
+    transform-origin: 200px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_6*/
+
+
+#LicitIMG_7 {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 400px;
+    max-width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}/*#LicitIMG_7*/
+
+
+#LicitSPAN_9 {
+    bottom: 10px;
+    box-sizing: border-box;
+    color: rgb(109, 109, 109);
+    display: block;
+    height: 23px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 76px;
+    align-self: stretch;
+    perspective-origin: 38px 11.5px;
+    transform-origin: 38px 11.5px;
+    background: rgb(238, 238, 238) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(109, 109, 109);
+    font: normal normal 600 normal 12px/23px HelveticaNeueBold, HelveticaNeue-Bold, 'Helvetica Neue Bold', HelveticaNeue, 'Helvetica Neue', TeXGyreHerosBold, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(109, 109, 109) none 0px;
+}/*#LicitSPAN_9*/
+
+#LicitDIV_10 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 44px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 400px;
+    z-index: 0;
+    align-self: stretch;
+    perspective-origin: 200px 22px;
+    transform-origin: 200px 22px;
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    transition: all 0.2s ease-in-out 0s;
+}/*#LicitDIV_10*/
+
+#LicitDIV_11 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 50px;
+    position: relative;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 400px;
+    z-index: 0;
+    perspective-origin: 200px 25px;
+    transform-origin: 200px 25px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_11*/
+
+#LicitBUTTON_12 {
+    background-position: -67px -138px;
+    cursor: pointer;
+    display: block;
+    height: 44px;
+    left: -20px;
+    position: absolute;
+    top: 0px;
+    vertical-align: top;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 20px;
+    align-self: stretch;
+    perspective-origin: 10px 22px;
+    transform-origin: 10px 22px;
+    background: rgb(218, 218, 218) none repeat scroll -67px -138px / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 0px 1px 0px 0px;
+    padding: 0px;
+}/*#LicitBUTTON_12*/
+
+#LicitI_13 {
+    background-position: -1px -302px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 22px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 12px;
+    align-self: stretch;
+    perspective-origin: 6px 11px;
+    transform-origin: 6px 11px;
+    content: '""';
+    background: rgba(0, 0, 0, 0) url(https://securepics.ebaystatic.com/aw/buy/liveauction/sprite-console-v1.png) repeat scroll -1px -302px / auto padding-box border-box;
+    font: italic normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: -10px 0px 0px -6px;
+}/*#LicitI_13*/
+
+#LicitDIV_14 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 47px;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 400px;
+    perspective-origin: 200px 23.5px;
+    transform-origin: 200px 23.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    overflow: hidden;
+}/*#LicitDIV_14*/
+
+#LicitUL_15 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 47px;
+    position: relative;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 400px;
+    word-spacing: -4px;
+    z-index: 0;
+    perspective-origin: 200px 23.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 200px 23.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px;
+    transition: transform 0.4s ease-out 0s;
+}/*#LicitUL_15*/
+
+#LicitLI_16, #LicitLI_19 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 44px;
+    visibility: hidden;
+    width: 44px;
+    perspective-origin: 22px 22px;
+    transform-origin: 22px 22px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitLI_16, #LicitLI_19*/
+
+#LicitA_17, #LicitA_20 {
+    box-sizing: border-box;
+    color: rgb(6, 84, 186);
+    text-align: left;
+    text-decoration: none;
+    visibility: hidden;
+    border: 0px none rgb(6, 84, 186);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(6, 84, 186) none 0px;
+}/*#LicitA_17, #LicitA_20*/
+
+#LicitIMG_18, #LicitIMG_21 {
+    box-sizing: border-box;
+    color: rgb(6, 84, 186);
+    height: 44px;
+    text-align: left;
+    visibility: hidden;
+    width: 44px;
+    perspective-origin: 22px 22px;
+    transform-origin: 22px 22px;
+    border: 0px none rgb(6, 84, 186);
+    list-style: none outside none;
+    outline: rgb(6, 84, 186) none 0px;
+}/*#LicitIMG_18, #LicitIMG_21*/
+
+#LicitBUTTON_22 {
+    cursor: pointer;
+    display: block;
+    height: 44px;
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    vertical-align: top;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 20px;
+    align-self: stretch;
+    perspective-origin: 10px 22px;
+    transform-origin: 10px 22px;
+    background: rgb(218, 218, 218) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    margin: 0px 0px 0px 1px;
+    padding: 0px;
+}/*#LicitBUTTON_22*/
+
+#LicitI_23 {
+    background-position: -24px -302px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 22px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 12px;
+    align-self: stretch;
+    perspective-origin: 6px 11px;
+    transform-origin: 6px 11px;
+    content: '""';
+    background: rgba(0, 0, 0, 0) url(https://securepics.ebaystatic.com/aw/buy/liveauction/sprite-console-v1.png) repeat scroll -24px -302px / auto padding-box border-box;
+    margin: -10px 0px 0px -6px;
+}/*#LicitI_23*/
+
+#LicitDIV_24 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 60px;
+    width: 350px;
+    perspective-origin: 175px 30px;
+    transform-origin: 175px 30px;
+    border: 0px none rgb(51, 51, 51);
+    margin: 25px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_24*/
+
+#LicitDIV_25 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 56px;
+    width: 350px;
+    perspective-origin: 175px 28px;
+    transform-origin: 175px 28px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_25*/
+
+#LicitSPAN_26 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 43px;
+    vertical-align: top;
+    width: 63.40625px;
+    perspective-origin: 31.703125px 21.5px;
+    transform-origin: 31.703125px 21.5px;
+    border: 0px none rgb(51, 51, 51);
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin: 0px 20px 0px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitSPAN_26*/
+
+#LicitDIV_27 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 56px;
+    overflow-wrap: break-word;
+    width: 240px;
+    word-break: break-word;
+    word-wrap: break-word;
+    perspective-origin: 120px 28px;
+    transform-origin: 120px 28px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_27*/
+
+#LicitH2_28 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 32px;
+    overflow-wrap: break-word;
+    width: 240px;
+    word-break: break-word;
+    word-wrap: break-word;
+    perspective-origin: 120px 16px;
+    transform-origin: 120px 16px;
+    border: 0px none rgb(51, 51, 51);
+    margin: 0px 0px 8px;
+    outline: rgb(51, 51, 51) none 0px;
+    font-size: 16px;
+}
+
+
+
+#LicitA_29 {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    overflow-wrap: break-word;
+    text-decoration: none;
+    word-break: break-word;
+    word-wrap: break-word;
+    border: 0px none rgb(85, 85, 85);
+    outline: rgb(85, 85, 85) none 0px;
+}/*#LicitA_29*/
+
+#LicitSPAN_30 {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: block;
+    height: 1px;
+    left: -10000px;
+    overflow-wrap: break-word;
+    position: absolute;
+    width: 1px;
+    word-break: break-word;
+    word-wrap: break-word;
+    align-self: stretch;
+    perspective-origin: 0.5px 0.5px;
+    transform-origin: 0.5px 0.5px;
+    border: 0px none rgb(85, 85, 85);
+    outline: rgb(85, 85, 85) none 0px;
+    overflow: hidden;
+}/*#LicitSPAN_30*/
+
+#LicitSMALL_31 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitSMALL_31*/
+
+#LicitDIV_32 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 510px;
+    width: 798px;
+    perspective-origin: 399px 255px;
+    transform-origin: 399px 255px;
+    border: 0px none rgb(51, 51, 51);
+    margin: 0px 0px 0px 400px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_32*/
+
+#LicitDIV_33 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 510px;
+    width: 798px;
+    perspective-origin: 399px 255px;
+    transform-origin: 399px 255px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_33*/
+
+#LicitDIV_34 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 510px;
+    width: 399px;
+    perspective-origin: 199.5px 255px;
+    transform-origin: 199.5px 255px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_34*/
+
+#LicitDIV_35 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 400px;
+    position: relative;
+    width: 399px;
+    perspective-origin: 199.5px 200px;
+    transform-origin: 199.5px 200px;
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-left: 1px solid rgb(218, 218, 218);
+    outline: rgb(51, 51, 51) none 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}/*#LicitDIV_35*/
+
+#LicitDIV_36 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 112px;
+    opacity: 0.600000023841858;
+    position: absolute;
+    top: 0px;
+    width: 397px;
+    z-index: 9;
+    align-self: stretch;
+    perspective-origin: 198.5px 56px;
+    transform-origin: 198.5px 56px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_36*/
+
+#LicitDIV_37 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 112px;
+    opacity: 0.400000005960465;
+    position: absolute;
+    top: 112px;
+    width: 397px;
+    z-index: 9;
+    align-self: stretch;
+    perspective-origin: 198.5px 56px;
+    transform-origin: 198.5px 56px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_37*/
+
+#LicitUL_38 {
+    bottom: 0px;
+    color: rgb(51, 51, 51);
+    height: 399px;
+    left: 0px;
+    position: absolute;
+    right: -16px;
+    top: 0px;
+    width: 397px;
+    align-self: stretch;
+    perspective-origin: 206.5px 199.5px;
+    transform-origin: 206.5px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px;
+}/*#LicitUL_38*/
+
+#LicitLI_39, #LicitLI_42, #LicitLI_45, #LicitLI_49, #LicitLI_53, #LicitLI_57, #LicitLI_61, #LicitLI_64, #LicitLI_67, #LicitLI_70, #LicitLI_73 {
+    color: rgb(119, 119, 119);
+    min-height: 37px;
+    position: relative;
+    width: 297px;
+    perspective-origin: 198.5px 28.5px;
+    transform-origin: 198.5px 28.5px;
+    border: 0px none rgb(119, 119, 119);
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+    padding: 10px 30px 0 70px;
+}/*#LicitLI_39, #LicitLI_42, #LicitLI_45, #LicitLI_49, #LicitLI_53, #LicitLI_57, #LicitLI_61, #LicitLI_64, #LicitLI_67, #LicitLI_70, #LicitLI_73*/
+
+#LicitSPAN_40, #LicitSPAN_43, #LicitSPAN_46, #LicitSPAN_62, #LicitSPAN_65, #LicitSPAN_68, #LicitSPAN_71, #LicitSPAN_74 {
+    background-position: 0px -102px;
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    display: block;
+    height: 25px;
+    left: 25px;
+    position: absolute;
+    text-align: left;
+    top: 14px;
+    width: 30px;
+    align-self: stretch;
+    perspective-origin: 15px 12.5px;
+    transform-origin: 15px 12.5px;
+    background: rgba(0, 0, 0, 0) url(https://securepics.ebaystatic.com/aw/buy/liveauction/sprite-console-v1.png) repeat scroll 0px -102px / auto padding-box border-box;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 20px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_40, #LicitSPAN_43, #LicitSPAN_46, #LicitSPAN_62, #LicitSPAN_65, #LicitSPAN_68, #LicitSPAN_71, #LicitSPAN_74*/
+
+#LicitSPAN_41, #LicitSPAN_44 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_41, #LicitSPAN_44*/
+
+#LicitSPAN_47 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 20px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_47*/
+
+#LicitB_48 {
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal bold normal 20px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitB_48*/
+
+#LicitSPAN_50, #LicitSPAN_54, #LicitSPAN_58 {
+    background-position: 0px -66px;
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    display: block;
+    height: 25px;
+    left: 25px;
+    position: absolute;
+    text-align: left;
+    top: 14px;
+    width: 30px;
+    align-self: stretch;
+    perspective-origin: 15px 12.5px;
+    transform-origin: 15px 12.5px;
+    background: rgba(0, 0, 0, 0) url(https://securepics.ebaystatic.com/aw/buy/liveauction/sprite-console-v1.png) repeat scroll 0px -66px / auto padding-box border-box;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 20px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_50, #LicitSPAN_54, #LicitSPAN_58*/
+
+#LicitSPAN_51, #LicitSPAN_55, #LicitSPAN_59 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 30px;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}
+
+#LicitboxText {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}
+
+
+#LicitSPAN_52, #LicitSPAN_56 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    text-transform: uppercase;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 16px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_52, #LicitSPAN_56*/
+
+#LicitSPAN_60 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    text-transform: uppercase;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 16px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_60*/
+
+#LicitSPAN_63, #LicitSPAN_66, #LicitSPAN_72 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 20px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_63, #LicitSPAN_66, #LicitSPAN_72*/
+
+#LicitSPAN_69, #LicitSPAN_75 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border: 0px none rgb(119, 119, 119);
+    font: normal normal normal normal 20px/30px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(119, 119, 119) none 0px;
+}/*#LicitSPAN_69, #LicitSPAN_75*/
+
+#LicitDIV_76 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 399px;
+    opacity: 0.00999999977648258;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 10px;
+    z-index: 9;
+    align-self: stretch;
+    perspective-origin: 5px 199.5px;
+    transform-origin: 5px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    border-radius: 5px 5px 5px 5px;
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    transition: all 0.2s ease 0s;
+}/*#LicitDIV_76*/
+
+#LicitDIV_77 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 248px;
+    position: relative;
+    width: 8px;
+    z-index: 0;
+    perspective-origin: 4px 124px;
+    transform: matrix(1, 0, 0, 1, 0, 151);
+    transform-origin: 4px 124px;
+    background: rgb(204, 204, 204) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 0px 1px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_77*/
+
+#LicitDIV_78 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 110px;
+    width: 399px;
+    perspective-origin: 199.5px 55px;
+    transform-origin: 199.5px 55px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 21px 0px 0px;
+}/*#LicitDIV_78*/
+
+#LicitDIV_79 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 70px;
+    width: 399px;
+    perspective-origin: 199.5px 35px;
+    transform-origin: 199.5px 35px;
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 1px solid rgb(218, 218, 218);
+    border-bottom: 0px none rgb(51, 51, 51);
+    border-left: 1px solid rgb(218, 218, 218);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_79*/
+
+#LicitFORM_80 {
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 64px;
+    text-align: center;
+    width: 200px;
+    perspective-origin: 100px 32px;
+    transform-origin: 100px 32px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 0px 30px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitFORM_80*/
+
+.LicitGomb {
+    box-shadow: rgba(0, 0, 0, 0.0588235) 0px 1px 0px 0px;
+    color: rgb(255, 255, 255);
+    min-width: 200px;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+    width: 200px;
+    z-index: 0;
+    height: 50px;
+    border: 0px none rgb(85, 85, 85);
+    border-radius: 2px 2px 2px 2px;
+    outline: rgb(85, 85, 85) none 0px;
+    padding: 7px 15px;
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+}/*#LicitBUTTON_81*/
+
+.LicitGomb:hover {
+      border: 1px solid rgb(255, 255, 255);
+}/*#LicitBUTTON_81*/
+
+.LicitGomb:active {
+      background: #007ef4;
+}/*#LicitBUTTON_81*/
+
+.LicitGomb .winner:active
+{
+  background: #2de02d;  
+}
+
+
+#LicitSPAN_82 {
+    box-sizing: border-box;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+    align-self: flex-start;
+    border: 0px none rgb(85, 85, 85);
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin: 0px 10px 0px 0px;
+    outline: rgb(85, 85, 85) none 0px;
+}/*#LicitSPAN_82*/
+
+#LicitOsszeg {
+    box-sizing: border-box;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+    align-self: flex-start;
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal bold normal 21px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(85, 85, 85) none 0px;
+}/*#LicitSPAN_83*/
+
+#LicitDIV_84 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 26px;
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_84*/
+
+#LicitA_85 {
+    color: rgb(6, 84, 186);
+    text-align: center;
+    text-decoration: none;
+    border: 0px none rgb(6, 84, 186);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(6, 84, 186) none 0px;
+}/*#LicitA_85*/
+
+#LicitSPAN_86 {
+    box-sizing: border-box;
+    color: rgb(6, 84, 186);
+    display: inline-block;
+    height: 16px;
+    text-align: center;
+    width: 88px;
+    perspective-origin: 44px 8px;
+    transform-origin: 44px 8px;
+    border: 0px none rgb(6, 84, 186);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 10px 0px 0px;
+    outline: rgb(6, 84, 186) none 0px;
+}/*#LicitSPAN_86*/
+
+#LicitINPUT_87 {
+    box-sizing: content-box;
+    display: none;
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    padding: 0px;
+}/*#LicitINPUT_87*/
+
+#LicitDIV_88, #LicitDIV_90 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: none;
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_88, #LicitDIV_90*/
+
+#LicitSPAN_89 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitSPAN_89*/
+
+#LicitDIV_91, #LicitDIV_92, #LicitDIV_96 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_91, #LicitDIV_92, #LicitDIV_96*/
+
+#LicitUL_93 {
+    color: rgb(51, 51, 51);
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 14px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitUL_93*/
+
+#LicitLI_94, #LicitLI_95 {
+    color: rgb(51, 51, 51);
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitLI_94, #LicitLI_95*/
+
+#LicitGombINFO {
+    box-sizing: border-box;
+    color: rgb(170, 170, 170);
+    display: block;
+    float: left;
+    height: 39px;
+    perspective-origin: 47.625px 19.5px;
+    transform-origin: 47.625px 19.5px;
+    border: 0px none rgb(170, 170, 170);
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 13px;
+    outline: rgb(170, 170, 170) none 0px;
+}/*#LicitSPAN_97*/
+
+#LicitDIV_98 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    float: right;
+    height: 510px;
+    width: 399px;
+    perspective-origin: 199.5px 255px;
+    transform-origin: 199.5px 255px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_98*/
+
+#LicitDIV_99 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 400px;
+    width: 364px;
+    perspective-origin: 199.5px 200px;
+    transform-origin: 199.5px 200px;
+    border-top: 0px solid rgb(218, 218, 218);
+    border-right: 0px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-left: 0px solid rgb(218, 218, 218);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_99*/
+
+#LicitDIV_100, #LicitDIV_101 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 399px;
+    width: 364px;
+    perspective-origin: 199.5px 199.5px;
+    transform-origin: 199.5px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_100, #LicitDIV_101*/
+
+#LicitDIV_102 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 357px;
+    position: relative;
+    width: 364px;
+    perspective-origin: 199.5px 199.5px;
+    transform-origin: 199.5px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_102*/
+
+#LicitCANVAS_103 {
+    color: rgb(51, 51, 51);
+    display: block;
+    height: 399px;
+    left: -2px;
+    position: absolute;
+    top: 2px;
+    width: 399px;
+    align-self: stretch;
+    perspective-origin: 199.5px 199.5px;
+    transform-origin: 199.5px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitCANVAS_103*/
+
+#LicitCANVAS_104 {
+    color: rgb(51, 51, 51);
+    display: block;
+    height: 399px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 399px;
+    align-self: stretch;
+    perspective-origin: 199.5px 199.5px;
+    transform-origin: 199.5px 199.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitCANVAS_104*/
+
+#LicitDIV_105 {
+    box-shadow: rgba(0, 0, 0, 0.34902) 8px 8px 10px 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: none;
+    height: auto;
+    left: 1218px;
+    position: absolute;
+    top: 412px;
+    width: auto;
+    z-index: 100;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal normal normal 12.039999961853px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 12px;
+}/*#LicitDIV_105*/
+
+#LicitDIV_105:after {
+    bottom: -8px;
+    box-shadow: rgba(0, 0, 0, 0.14902) -3px 9px 10px 0px;
+    color: rgb(51, 51, 51);
+    display: block;
+    height: 13px;
+    left: 18px;
+    position: absolute;
+    width: 13px;
+    z-index: 0;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    content: '""';
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-left: 1px solid rgb(221, 221, 221);
+    font: normal normal normal normal 12.039999961853px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_105:after*/
+
+#LicitDIV_105:before {
+    bottom: 0px;
+    color: rgb(51, 51, 51);
+    display: none;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    width: 52px;
+    z-index: 1;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    content: '""';
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12.039999961853px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_105:before*/
+
+#LicitDIV_106 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12.039999961853px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_106*/
+
+#LicitDIV_107 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: auto;
+    text-transform: uppercase;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12.039999961853px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_107*/
+
+#LicitDIV_108 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal bold normal 12.039999961853px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin: 5px 0px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_108*/
+
+#LicitDIV_109 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 110px;
+    width: 364px;
+    perspective-origin: 199.5px 55px;
+    transform-origin: 199.5px 55px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_109*/
+
+#LicitUL_110 {
+    color: rgb(51, 51, 51);
+    height: 110px;
+    width: 399px;
+    perspective-origin: 199.5px 55px;
+    transform-origin: 199.5px 55px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px;
+}/*#LicitUL_110*/
+
+#LicitLI_111, #LicitLI_115 {
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 110px;
+    text-align: center;
+    width: 182px;
+    perspective-origin: 99.75px 55px;
+    transform-origin: 99.75px 55px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitLI_111, #LicitLI_115*/
+
+#LicitDIV_112 {
+    background-position: 13px -135px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    perspective-origin: 25px 20px;
+    transform-origin: 25px 20px;
+    background: rgba(0, 0, 0, 0) url(https://securepics.ebaystatic.com/aw/buy/liveauction/sprite-console-v1.png) repeat scroll 13px -135px / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 10px 0px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_112*/
+
+#LicitCounter, #Timeelapsed {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    height: 32px;
+    text-align: center;
+    width: 182px;
+    perspective-origin: 99.75px 16px;
+    transform-origin: 99.75px 16px;
+    border: 0px none rgb(85, 85, 85);
+    font-family: HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    list-style: none outside none;
+    outline: rgb(85, 85, 85) none 0px;
+}/*#LicitDIV_113, #LicitDIV_117*/
+
+#LicitDIV_114, #LicitDIV_118 {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    height: 21px;
+    text-align: center;
+    width: 182px;
+    perspective-origin: 99.75px 10.5px;
+    transform-origin: 99.75px 10.5px;
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal normal normal 13px/21px HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(85, 85, 85) none 0px;
+}/*#LicitDIV_114, #LicitDIV_118*/
+
+#LicitDIV_116 {
+    background-position: -67px -135px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    perspective-origin: 25px 20px;
+    transform-origin: 25px 20px;
+    background: rgba(0, 0, 0, 0) url(https://securepics.ebaystatic.com/aw/buy/liveauction/sprite-console-v1.png) repeat scroll -67px -135px / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/normal HelveticaNeue, 'Helvetica Neue', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 10px 0px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LicitDIV_116*/
+
+#VeteliBoxDIV_1 {
+    color: rgb(51, 51, 51);
+    height: 121px;
+    width: 557.59375px;
+    perspective-origin: 278.796875px 60.5px;
+    transform-origin: 278.796875px 60.5px;
+    background: rgb(226, 226, 226) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxDIV_1*/
+
+#VeteliBoxDIV_2, #VeteliBoxDIV_18, #VeteliBoxDIV_30 {
+    clear: both;
+    color: rgb(51, 51, 51);
+    height: 10px;
+    width: 557.59375px;
+    perspective-origin: 278.796875px 5px;
+    transform-origin: 278.796875px 5px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxDIV_2, #VeteliBoxDIV_18, #VeteliBoxDIV_30*/
+
+#VeteliBoxDIV_3, #VeteliBoxDIV_19, #VeteliBoxDIV_27 {
+    clear: both;
+    color: rgb(51, 51, 51);
+    width: 557.59375px;
+    perspective-origin: 278.796875px 0px;
+    transform-origin: 278.796875px 0px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxDIV_3, #VeteliBoxDIV_19, #VeteliBoxDIV_27*/
+
+#VeteliBoxDIV_4 {
+    color: rgb(85, 85, 85);
+    float: left;
+    height: 15px;
+    overflow-wrap: break-word;
+    text-align: right;
+    width: 117.09375px;
+    word-wrap: break-word;
+    perspective-origin: 65.046875px 9.5px;
+    transform-origin: 65.046875px 9.5px;
+    border: 0px none rgb(85, 85, 85);
+    
+    outline: rgb(85, 85, 85) none 0px;
+    padding: 4px 13px 0px 0px;
+}/*#VeteliBoxDIV_4*/
+
+#VeteliBoxDIV_5 {
+    color: rgb(51, 51, 51);
+    display: table;
+    float: left;
+    height: 26px;
+    white-space: nowrap;
+    width: 161px;
+    perspective-origin: 81.5px 23px;
+    transform-origin: 81.5px 23px;
+    border: 0px none rgb(51, 51, 51);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: normal;
+    font-family: 'Helvetica neue', Helvetica, Verdana, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 4px 2px 0px 0px;
+}/*#VeteliBoxDIV_5*/
+
+#VeteliBoxSPAN_6, #VeteliBoxSPAN_8 {
+    white-space: nowrap;
+}/*#VeteliBoxSPAN_6, #VeteliBoxSPAN_8*/
+
+#VeteliBoxDIV_7 {
+    color: rgb(102, 102, 102);
+    display: none;
+    height: auto;
+    white-space: nowrap;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(102, 102, 102);
+    outline: rgb(102, 102, 102) none 0px;
+}/*#VeteliBoxDIV_7*/
+
+#VeteliBoxSPAN_9 {
+    white-space: nowrap;
+}/*#VeteliBoxSPAN_9*/
+
+#VeteliBoxDIV_10 {
+    clear: both;
+    color: rgb(102, 102, 102);
+    height: 28px;
+    width: 161px;
+    perspective-origin: 80.5px 14px;
+    transform-origin: 80.5px 14px;
+    border: 0px none rgb(102, 102, 102);
+    outline: rgb(102, 102, 102) none 0px;
+}/*#VeteliBoxDIV_10*/
+
+#VeteliBoxSPAN_11 {
+    color: rgb(102, 102, 102);
+    white-space: nowrap;
+    border: 0px none rgb(102, 102, 102);
+    outline: rgb(102, 102, 102) none 0px;
+}/*#VeteliBoxSPAN_11*/
+
+#VeteliBoxSPAN_12 {
+    color: rgb(51, 51, 51);
+    display: block;
+    height: 0px;
+    width: 557.59375px;
+    perspective-origin: 278.796875px 0px;
+    transform-origin: 278.796875px 0px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxSPAN_12*/
+
+#VeteliBoxDIV_13 {
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 15px;
+    width: 208px;
+    perspective-origin: 33px 9.5px;
+    transform-origin: 33px 9.5px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 4px 8px 0px 0px;
+}/*#VeteliBoxDIV_13*/
+
+#VeteliBoxSPAN_14 {
+    color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    font-family: 'Helvetica neue', Helvetica, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxSPAN_14*/
+
+#VeteliBoxA_15 {
+    color: rgb(6, 84, 186);
+    text-decoration: none;
+    border: 0px none rgb(6, 84, 186);
+    
+    outline: rgb(6, 84, 186) none 0px;
+}/*#VeteliBoxA_15*/
+
+#VeteliBoxSPAN_16, #VeteliBoxSPAN_17 {
+    color: rgb(6, 84, 186);
+    border: 0px none rgb(6, 84, 186);
+    
+    outline: rgb(6, 84, 186) none 0px;
+}/*#VeteliBoxSPAN_16, #VeteliBoxSPAN_17*/
+
+#VeteliBoxDIV_20 {
+    color: rgb(102, 102, 102);
+    float: left;
+    height: 15px;
+    overflow-wrap: break-word;
+    text-align: right;
+    width: 117.09375px;
+    word-wrap: break-word;
+    perspective-origin: 65.046875px 9px;
+    transform-origin: 65.046875px 9px;
+    border: 0px none rgb(102, 102, 102);
+    
+    outline: rgb(102, 102, 102) none 0px;
+    padding: 3px 13px 0px 0px;
+}/*#VeteliBoxDIV_20*/
+
+#VeteliBoxDIV_21 {
+    color: rgb(51, 51, 51);
+    display: table;
+    float: left;
+    height: 30px;
+    width: 161px;
+    perspective-origin: 81.5px 15px;
+    transform-origin: 81.5px 15px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px 2px 0px 0px;
+}/*#VeteliBoxDIV_21*/
+
+#VeteliBoxLABEL_22 {
+    color: rgb(51, 51, 51);
+    display: none;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxLABEL_22*/
+
+
+#VeteliBoxDIV_24 {
+    color: rgb(51, 51, 51);
+    width: 557.59375px;
+    perspective-origin: 278.796875px 0px;
+    transform-origin: 278.796875px 0px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxDIV_24*/
+
+#VeteliBoxDIV_25 {
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 28px;
+    perspective-origin: 63px 14px;
+    transform-origin: 63px 14px;
+    border: 0px none rgb(51, 51, 51);
+    
+    outline: rgb(51, 51, 51) none 0px;
+}/*#VeteliBoxDIV_25*/
+
+#VeteliBoxA_26 {
+    box-shadow: rgba(0, 0, 0, 0.0392157) 0px 3px 0px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 124px;
+    perspective-origin: 63px 14px;
+    transform-origin: 63px 14px;
+    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 121, 188)), to(rgb(0, 80, 157))) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal bold normal 16px/normal 'Helvetica neue', Helvetica, Verdana, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 4px 0px;
+}/*#VeteliBoxA_26*/
+
+#VeteliBoxDIV_28 {
+    color: rgb(102, 102, 102);
+    float: left;
+    height: 15px;
+    overflow-wrap: break-word;
+    text-align: right;
+    width: 117.09375px;
+    word-wrap: break-word;
+    perspective-origin: 65.046875px 7.5px;
+    transform-origin: 65.046875px 7.5px;
+    border: 0px none rgb(102, 102, 102);
+    
+    outline: rgb(102, 102, 102) none 0px;
+    padding: 0px 13px 0px 0px;
+}/*#VeteliBoxDIV_28*/
+
+#VeteliBoxDIV_29 {
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 12px;
+    width: 126px;
+    perspective-origin: 63px 7px;
+    transform-origin: 63px 7px;
+    border: 0px none rgb(51, 51, 51);
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 2px 0px 0px;
+}/*#VeteliBoxDIV_29*/
+
+.lnav-cntr {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%; 
+}
+
+.lnav-cntr ul{
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.lnav-cntr ul li {
+    line-height: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.lnav-row.selected>a{
+    color: #000;
+}
+
+
+.sub-box1 {
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 0 0 0 70px;
+    width: 800px;
+    float:left;
+}
+
+.form-row
+{
+ width: 350px;   
+ display: block; 
+ text-align: left;
+}
+
+.doit{
+    background: rgb(0, 80, 157) linear-gradient(to top, rgb(0, 80, 157), rgb(0, 122, 189)) no-repeat scroll 0 0;
+    border: 0 none rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.06);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 20px 0 0;
+    outline: 0 none rgb(255, 255, 255);
+    padding: 10px 20px;
+    perspective-origin: 69px 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.doit:hover {
+    background: #6db4f7;
+    border: 0 none rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#left{
+    color: #555;
+    display: block;
+    font-size: 14px;
+    padding: 5px 0 3px; 
+    margin: 0;
+}
+#right{
+    color: #555;
+    display: block;
+    font-size: 14px;
+    padding: 5px 0 3px; 
+    margin: 0;
+}
+
+.loginInputTXT
+{
+   border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 0 8px 7px;
+    width: 445px;    
+}
+
+#comment-text
+{
+ margin-left:10px;
+ display: block;  
+}
+
+.alert-box 
+{
+    background: #fff;
+    padding: 70px;;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1165px;    
+}
+
+.alert-box-message {
+    font-size: 20px;
+}
+
+.alert-box-goback {
+    margin-top: 5px;
+}
+
+#create-edit-page .row
+{
+  margin: 10px 0 0 0;
+    
+}
+
+
+.licit_timeline_big
+{
+max-height: 280px;
+max-width: 100%;  
+position: absolute; 
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+}
+
+.auc_logo
+{
+max-height: 100%;
+max-width: 100%;  
+position: absolute; 
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+ margin: auto;  
+ padding: 3px;
+}
+
+
+.section-container {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #dadada;
+    margin-bottom: 15px;
+    width: 1165px;
+}
+
+.lot-browser-title {
+    font-size: 17px;
+    height: 18px;
+    margin: 15px 15px 0;
+}
+
+.lot-browser > .lot-carousel-wrapper {
+    min-height: 400px;
+    padding-top: 34px;
+    position: relative;
+}
+
+.lot-carousel {
+    float: left;
+    margin: 0 auto;
+    min-height: 300px;
+    width: 66.66%;
+}
+
+.lot-info-horizontal > .lot-info-image-cntr {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 250px;
+    max-width: 40%;
+    min-height: 1px;
+    width: 250px;
+}
+
+.lot-info-horizontal .lot-info-details {
+    height: auto;
+}
+.lot-info-horizontal > .lot-info-details {
+    border-right: 0 none;
+    margin: 0;
+    padding: 0 0 25px 25px;
+    width: 60%;
+}
+
+.lot-info-title > span {
+    font-size: 38px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.timeline-wrapper
+{
+  box-sizing: border-box;
+  display: block;
+}
+
+.timeline-strip {
+    overflow: hidden;
+    padding: 3px 0;
+    width: 1165px;
+    margin-left:-2px;
+}
+
+.timeline-strip-imglist
+{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+     position: relative;
+}
+
+
+.timeline-strip-imglist li {
+    margin-right: 3px;
+}
+
+.timeline-strip a.timeline-imgwrap {
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    height: 125px;
+    vertical-align: bottom;
+    width: 125px;
+}
+
+.timeline-imgwrap {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+li.is-selected .timeline-strip-lot {
+    border-top-color: #666;
+    display: block;
+}
+.page-container div, .page-container span {
+    box-sizing: border-box;
+}
+.timeline-strip-lot, .timeline-strip-note {
+    border-top: 2px solid transparent;
+    font-size: 10px;
+    margin-top: 3px;
+    padding-top: 1px;
+    display: block;
+    text-align: center;
+}
+
+.timeline-tetel
+{
+  display:block;
+  width: 125px;
+  float: left;
+}
+
+.timeline
+{
+   margin-bottom: 10px;
+   margin-top: 80px;
+   position: relative;
+   padding: 30px;
+}
+
+ul.tags {
+display: inline;
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+ul.tags li {
+display: inline;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ul.tags li:after {
+content: ", ";
+}
+
+ul.tags li:last-child:after {
+content: "";
+}
+
+.katalogusside
+{
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+}
+
+.search-input
+{
+  width: 80%;
+  display: inline-block;
+}
+
+.search-box
+{
+  width: 290px;
+  display: inline-block;
+  margin: 0 5px 0 10px;
+}
+
+.kat-search
+{
+  float: right;
+}
+
+heading-nav-button a:hover
+{
+ text-decoration:none;   
+}
+
+.loginInputTXT2 {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 0 8px 7px;
+    width: 98%;}
+
+.scrollable
+{
+ overflow-y: scroll;
+ height:100%;
+}
+
+.logged_in
+{
+ background: rgb(0, 80, 157) linear-gradient(to top, rgb(0, 80, 157), rgb(0, 122, 189)) no-repeat scroll 0 0;
+}
+
+.classHighlight
+{
+ box-shadow:0px 12px 22px 1px #333;   
+    
+}
+
+.winner
+{
+  background: rgb(0, 157, 0) linear-gradient(to top, rgb(0, 157, 0), rgb(0, 189, 42)) no-repeat scroll 0 0;  
+}
+
+.strong
+{
+   font-weight: 700;
+}
+
+
+.dropdown
+{
+width:100%;     
+}
+
+.dropdown-toggle
+{
+width:100%;     
+}
+
+.dropdown-menu
+{
+padding: 0;    
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  display: none;
+  float: left;
+  margin: 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #bdc3ca;
+  border-radius: 1px;
+  /* box-shadow */
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.dropdown-menu  li  a {
+  display: block;
+  padding: 5px;
+  clear: both;
+  color: #2980b9;
+  font-weight: bold;
+  line-height: 2;
+  white-space: nowrap;
+}
+.dropdown-menu  li  a:hover,
+.dropdown-menu  li  a:focus {
+  text-decoration: none;
+  background-color: #e4e4e4;
+  color: #2980b9;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #45c8dc;
+}
+
+
+.drop_doit
+{
+    text-align: left;
+    background: rgb(255, 255, 255);
+    border: 0 none rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.06);
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+    outline: 0 none rgb(255, 255, 255);
+    padding: 10px;
+    perspective-origin: 69px 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.17);
+    transform-origin: 69px 18px 0;       
+}
+
+.drop_doit a
+{
+    color: #2980b9;
+}
+
+.drop_doit i
+{
+  float: right;   
+  display: block;
+  color: #2980b9;
+}
+
+
+.drop_doit:hover {
+    color: #000;
+    border: 0 none rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.loginInputTXT:focus {
+  border-color: #66afe9;
+  outline: 0;
+  /* box-shadow */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.loginInputTXT2:focus {
+  border-color: #66afe9;
+  outline: 0;
+  /* box-shadow */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+#VeteliBoxINPUT_23 {
+    box-sizing: content-box;
+    color: rgb(51, 51, 51);
+    height: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+    width: 106px;
+    perspective-origin: 54px 12.5px;
+    transform-origin: 54px 12.5px;
+    border: 1px solid rgb(153, 153, 153);
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 5px 3px;
+}/*#VeteliBoxINPUT_23*/
+
+#VeteliBoxINPUT_23:focus {
+  border-color: #66afe9;
+  outline: 0;
+  /* box-shadow */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+
+
+.VeteliBoxINPUT-class {
+    box-sizing: content-box;
+    color: rgb(51, 51, 51);
+    height: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+    perspective-origin: 54px 12.5px;
+    transform-origin: 54px 12.5px;
+    border: 1px solid rgb(153, 153, 153);
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 5px 3px;
+}/*#VeteliBoxINPUT_23*/
+
+.VeteliBoxINPUT-class:focus {
+  border-color: #66afe9;
+  outline: 0;
+  /* box-shadow */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;   
+}
+
+.no-margin{
+  margin:0; 
+}
+
+.right{
+    text-align: right;
+}
+
+.float-right{
+    float: right;
+}
+
+
+.tetel_box_left{
+  margin-top:5px; 
+  height:175px;
+}
+
+.teteltablebox{
+   background: #fff;
+   margin-bottom:5px;
+   margin-top:5px;
+   border: 1px solid #ccc;
+   padding-left:5px;
+   padding-right: 5px;
+}
+
+.no-border{
+    border-top: none;
+}
+
+.maxheight{
+  height:100%;
+}
+
+.bottom-left{
+   float:left;
+   bottom:20px;
+   position:absolute;
+}
+
+.pointer-show{
+   cursor: pointer;
+}
+
+[onclick] {
+    cursor: pointer;
+}
+
+.favorite_button{
+    cursor: pointer;
+}
+
+
+.irasbeli
+{
+  height: 30px;
+  margin-bottom: 0;
+}
+
+.tetel_img_solo{
+    cursor: pointer;
+    max-height: 500px;
+    max-width: 500px;
+    text-align: center;   
+}
+
+.tetel_img_big{
+    cursor: pointer;
+    max-height: 375px;
+    max-width: 500px;
+    text-align: center;   
+}
+
+.tetel_img_list
+{
+  padding:8px;
+}
+
+.tetel_img_small{
+    cursor: pointer;
+    max-height: 100px;
+    max-width: 100px;
+    text-align: center;
+    margin: 2px;
+}
+
+.footer {
+    background: #18191b none repeat scroll 0 0;
+    color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer a {
+    color: #999999;
+}
+.footer a:hover {
+    color: #999999;
+}
+
+.footer-nav {
+    background: #303236 none repeat scroll 0 0;
+}
+
+.pull-footer-nav{
+    margin-top: 10px;
+}
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand{
+  padding:0;
+}
+
+.navbar-brand-img{
+  height:100%;   
+  padding:0;
+}
+
+.arveres-mainpage
+{
+  min-height:280px;     
+}
+
+.magin_small
+{
+ margin: 5px 0; 
+}
+
+.katalogus_form
+{
+  padding-left:5px;
+  padding-top:5px;
+  padding-right:0px;    
+}
+
+.katalogus_form_inner
+{
+  padding:0px;  
+}

@@ -1,0 +1,56 @@
+
+body {
+  background: rgb(204,204,204); 
+    -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  font-size:12px;
+   background: #fff;
+}
+
+#print_katalogus{
+ width: 800px;  
+ margin:auto;
+ background: #fff;
+}
+
+#print_katalogus figure {
+    box-sizing: border-box;
+    height: 12.5%;
+   //margin-bottom: 10px;
+    //overflow: hidden;
+    //padding: 3px;
+}
+
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  page-break-after: always;
+}
+
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+@page {
+  size: 7in 9.25in;
+  margin: 0mm 16mm 0mm 16mm;
+}
+
+.right
+{
+bottom:0px;
+position: absolute;
+right:3px;
+}
+

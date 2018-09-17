@@ -1,0 +1,400 @@
+/* CSS used here will be applied after bootstrap.css */
+
+
+
+.single_deal {
+    overflow: hidden;
+    position: relative;
+}
+
+.bannerheader.red {
+    background-color: #ef4e4e;
+}
+.bannerheader {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.bannerfooter {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.banner.open.out {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-name: slidedownout;
+}
+
+.bannerfootergrey {
+    background-color: #f4f4f4;
+    color: #888;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.bannerfootercolor {
+    color: white;
+    font-size: 31px;
+    line-height: 29px;
+    padding-bottom: 14px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.bannerfootercolor.red {
+    background-color: #ef4e4e;
+}
+
+.bannerfootercolor.blue {
+    background-color: rgba(55, 193, 232, 0.99);
+}
+
+.bannerheader.blue {
+    background-color: #37c1e8;
+}
+
+.bannerfootertimer {
+    float: left;
+}
+.bannerfootertime {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48px;
+}
+.bannerfooterseconds {
+    float: left;
+    margin-left: 4px;
+    padding-top: 1px;
+}
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    font-family: Lato,sans-serif;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+}
+
+.banner {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    display: block;
+    top: 0;
+    transform: translate3d(0px, -700px, 0px);
+}
+
+@keyframes slidedown {
+0% {
+    transform: translate3d(0px, -521px, 0px);
+}
+70% {
+    transform: translate3d(0px, 0px, 0px);
+}
+85% {
+    transform: translate3d(0px, -10px, 0px);
+}
+100% {
+    transform: none;
+}
+}
+.banner.open {
+    animation-name: slidedown;
+}
+@keyframes slidedownout {
+0% {
+    transform: translate3d(0px, 0px, 0px);
+}
+100% {
+    transform: translate3d(0px, 400px, 0px);
+}
+}
+.banner.open.out {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-name: slidedownout;
+}
+
+
+
+
+
+
+
+
+.deal_button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #999;
+    display: block;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 36px;
+    margin-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.deal_button:hover {
+    background-color: #48abe6;
+    background-image: linear-gradient(to top, #3b98db, #54b5ea);
+    border-color: #1992da;
+    color: white;
+}
+.deal_button:active {
+    background-image: linear-gradient(#3b98db, #54b5ea);
+}
+.deal_button.frozen {
+    background-color: #df3f3f;
+    background-image: linear-gradient(to top, #d13636, #ed4747);
+    border-color: #b52828;
+    color: white;
+}
+.deal_button.frozen:hover {
+    background-image: linear-gradient(to top, #db3737, #ff5757);
+}
+.deal_button.frozen:active {
+    background-image: linear-gradient(#db3737, #ff5757);
+}
+
+
+.productbox {
+    position: relative;
+ border: 1px solid #ddd;
+border-radius: 4px;
+-webkit-transition: all .2s ease-in-out; 
+}
+.caption {
+	padding:10px;
+    bottom: 0;
+    width: 100%;
+    max-height: 40%;
+    overflow: hidden;
+  font-size: 11px;
+
+}
+
+.box-header {
+	padding:10px;
+	background-color:rgba(0,0,0,0.7);
+    top: 0;
+    width: 100%;
+    max-height: 10%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  font-size: 14px;
+  color: #FFF;
+
+}
+
+.finalprice {
+  font-size:15px;
+    color: #AAFCAE;
+}
+
+.original-price {
+  font-size:12px;
+  color: #FFFFFF;
+  line-height: 15px;
+}
+
+.countdown
+{
+   color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1; 
+    font-size:30px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+
+h5 {
+  margin-top: 0px;
+  color: white;
+  max-height: 30px;
+  overflow: hidden;
+}
+.img-responsive{
+	width: 100%;    
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding: 5px;
+}
+
+.col-xs-12, .col-sm-6, .col-md-6
+{
+   padding-left: 15px; 
+   padding-right: 15px; 
+}
+
+.btn-block {
+margin-top: 5px;
+}
+.saleoffrate{
+position: absolute;
+    top:10px;
+    right: 10px;
+padding-top: 13px;
+text-align:center;
+background-color: rgba(76, 174, 76,0.8);
+color: #FFFFFF;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+line-height: 13px;
+}
+
+@media (min-width: 384px) and (max-width: 768px) {
+  .img-responsive img{
+      max-width: 50%;
+  }
+  .img-responsive{
+      text-align: center;
+  }  
+}
+
+.eventimage {
+    display: inline-block;
+    width: 100%;
+}
+
+.eventdetails {
+    background-color: #f8f8f8;
+    color: #999;
+    float: left;
+    font-family: Lato,sans-serif;
+    padding: 8px 7px;
+    width: 100%;
+}
+
+.eventdescription {
+    color: #666;
+    font-size: 15px;
+    font-weight: 700;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.eventtime {
+    color: #999;
+    font-size: 13px;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.eventtext {
+    display: inline-block;
+    float: left;
+}
+
+.eventbutton {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #777;
+    display: block;
+    float: right;
+    height: 40px;
+    line-height: 38px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.eventbutton:hover {
+    background-color: #48abe6;
+    background-image: linear-gradient(to top, #3b98db, #54b5ea);
+    border-color: #1992da;
+    color: white;
+}
+.eventbutton:active {
+    background-image: linear-gradient(#3b98db, #54b5ea);
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}
+
+.glow 
+{
+    color: #fd643e !important;
+}
+
+.cart_row
+{
+  margin-left: 0px;
+  margin-right: 0px;  
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}

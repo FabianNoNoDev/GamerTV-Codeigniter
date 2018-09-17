@@ -1,0 +1,172 @@
+#not-found {
+	h1 {
+		font-size: 90px;
+		letter-spacing: 2px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	h2 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p {
+		font-size: 17px;
+		margin-bottom: 40px;
+	}
+	.btn {
+		border-bottom: 4px solid darken(@brand-primary, 10%);
+
+		.fa {
+			padding-right: 10px;
+		}
+	}
+	
+	padding-top: 0;
+
+
+}
+
+#ad {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 35px;
+
+}
+
+#games-index #ad {
+	margin-top: 35px;
+}
+
+.working {
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+	font-size: 30px;
+}
+
+.cont-pad-bottom {
+	padding-bottom: 60px;
+}
+
+//push radio label to right
+.radio span {
+	padding-left: 10px;
+}
+
+.inline-spinner {
+	margin: 0 0 0 8px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.7em;
+}
+#forgot-pass-page {
+	background: @gray;
+
+	#forgot-pass-box{
+		background: @primary-bg;
+		padding: 20px 15px 10px 15px; 
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+
+footer {
+
+	@media (max-width: @screen-sm) {
+		.col-sm-6 {
+			padding-left: 0 !important;
+		}
+
+		.captcha-image {
+			display: block;
+			width: 100%;
+		}
+	}
+	
+	.first-cont { padding: 70px; };
+
+	background: @secondary-bg;
+	color: lighten(@gray-dark, 40%);
+
+	a {
+		color: lighten(@gray-dark, 40%);
+		&:hover {
+			color: lighten(@gray-dark, 40%);
+		}
+	};
+
+	#footer-contact {
+		section:first-of-type { padding-left: 0; };
+		section:last-of-type { padding-right: 0; };
+	}
+
+	.footer-social-col {
+		padding: 0px;
+
+		p {
+			margin-bottom: 25px !important;
+		}
+	}
+
+	textarea { padding-bottom: 10px !important };
+
+	#footer-nav {
+		margin-top: 30px;
+		padding: 10px;
+		background: lighten(@secondary-bg, 10%);
+
+		p, ul {
+			margin: 16px 0 !important;
+		}
+	}
+
+	.pull-right, .captcha-image {
+		margin-top: 10px;
+	}
+
+	.social-media {
+
+		.fa {
+			padding-right: 5px;
+		}
+
+		.twitter {
+			padding-right: 14px;
+		}
+
+		.google, .youtube {
+			padding-right: 9px;
+		}
+
+		.btn {
+			margin: 10px 0;
+			color: #fff;
+			border-radius: 2px;
+			border-bottom: 3px solid transparent;
+		}
+
+		h2 {
+			margin: 30px 0 5px 0;
+		}
+	}
+
+	.form-control {
+		background: lighten(@secondary-bg, 10%);
+		border: 1px solid @secondary-bg;
+	}
+
+	.req {
+		color: @brand-danger;
+	}
+}
+
+#pages-show {
+	h1 {
+		margin-bottom: 40px;
+	}
+}
